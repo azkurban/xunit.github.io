@@ -30,7 +30,7 @@ title: Home
 <h2>Table of Contents</h2>
 
 <ul>
-  <li><a href="#latest-builds">Latest Builds</a></li>
+  <li><a href="#packages">Packages and Builds</a></li>
   <li><a href="#documentation">Documentation</a></li>
   <li><a href="#releases">Release Notes</a></li>
   <li><a href="#runners">Test Runner Compatibility</a></li>
@@ -39,38 +39,41 @@ title: Home
   <li><a href="#copyrights">Additional copyrights</a></li>
 </ul>
 
-<h2 id="latest-builds">Latest Builds</h2>
+<h2 id="packages">Packages and Builds</h2>
 
 <table class="table latest">
   <thead>
     <tr>
       <th></th>
-      <th>Core framework</th>
-      <th>Analyzers</th>
-      <th>Devices runner</th>
+      <th>Stable package</th>
+      <th>Latest CI package</th>
+      <th>Latest CI build</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>Stable (on <a href="https://www.nuget.org/">NuGet</a>)</th>
+      <th>Core framework</th>
       <td><a href="https://www.nuget.org/packages/xunit"><img src="https://img.shields.io/nuget/v/xunit.svg?style=flat-square"></a></td>
-      <td><a href="https://www.nuget.org/packages/xunit.analyzers"><img src="https://img.shields.io/nuget/v/xunit.analyzers.svg?style=flat-square"></a></td>
-      <td><a href="https://www.nuget.org/packages/xunit.runner.devices"><img src="https://img.shields.io/nuget/v/xunit.runner.devices.svg?style=flat-square"></a></td>
-    </tr>
-    <tr>
-      <th>Latest Build (on <a href="https://myget.org/gallery/xunit">MyGet</a>)</th>
       <td><a href="https://myget.org/feed/xunit/package/nuget/xunit"><img src="https://img.shields.io/myget/xunit/vpre/xunit.svg?style=flat-square&label=myget"></a></td>
+      <td></td>
+    <tr>
+    <tr>
+      <th>xunit.analyzers</th>
+      <td><a href="https://www.nuget.org/packages/xunit.analyzers"><img src="https://img.shields.io/nuget/v/xunit.analyzers.svg?style=flat-square"></a></td>
       <td><a href="https://myget.org/feed/xunit/package/nuget/xunit.analyzers"><img src="https://img.shields.io/myget/xunit/vpre/xunit.analyzers.svg?style=flat-square&label=myget"></a></td>
-      <td><a href="https://myget.org/feed/xunit-xamarin/package/nuget/xunit.runner.devices"><img src="https://img.shields.io/myget/xunit-xamarin/vpre/xunit.runner.devices.svg?style=flat-square&label=myget"></a></td>
+      <td><a href="https://actions-badge.atrox.dev/xunit/xunit.analyzers/goto"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fxunit%2Fxunit.analyzers%2Fbadge&style=flat-square&label=build"></a></td>
     </tr>
     <tr>
-      <th>Build Status</th>
+      <th>xunit.runner.devices</th>
+      <td><a href="https://www.nuget.org/packages/xunit.runner.devices"><img src="https://img.shields.io/nuget/v/xunit.runner.devices.svg?style=flat-square"></a></td>
       <td></td>
-      <td><a href="https://actions-badge.atrox.dev/xunit/xunit.analyzers/goto"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fxunit%2Fxunit.analyzers%2Fbadge&style=flat-square&label=GitHub"></a></td>
-      <td></td>
+      <td><a href="https://dev.azure.com/dotnet/xUnit/_build?definitionId=23&_a=summary"><img src="https://img.shields.io/azure-devops/build/dotnet/xUnit/23"></a></td>
     </tr>
     <tr>
-      <td colspan="4"><em>For information about features and bug fixes, see the <a href="#releases">release notes</a>.</em></td>
+      <th>xunit.runner.visualstudio</th>
+      <td><a href="https://www.nuget.org/packages/xunit.runner.visualstudio"><img src="https://img.shields.io/nuget/v/xunit.runner.visualstudio.svg?style=flat-square"></a></td>
+      <td></td>
+      <td><a href="https://dev.azure.com/dotnet/xUnit/_build?definitionId=64&_a=summary"><img src="https://img.shields.io/azure-devops/build/dotnet/xUnit/64"></a></td>
     </tr>
   </tbody>
 </table>
