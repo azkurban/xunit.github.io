@@ -35,9 +35,9 @@
       "minimum": 0
     },
     "maxParallelThreads": {
-      "description": "Configures the maximum number of threads to be used when parallelizing tests within this assembly.",
+      "description": "Configures the maximum number of threads to be used when parallelizing tests within this assembly. Use a value of 0 to indicate that you would like the default behavior; use a value of -1 to indicate that you do not wish to limit the number of threads used for parallelization.",
       "type": "integer",
-      "minimum": 1
+      "minimum": -1
     },
     "methodDisplay": {
       "description": "Configures the default display name for test cases. If you choose 'method', the display name will be just the method (without the class name); if you choose 'classAndMethod', the default display name will be the fully qualified class name and method name.",
